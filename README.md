@@ -232,17 +232,3 @@ scipy>=1.11.0
 pandas>=2.0.0
 wandb>=0.16.0
 ```
-
----
-
-
-## 📚 Kaynaklar
-
-1. Lawhern ve ark., "EEGNet," *J. Neural Eng.*, 2018
-2. Koelstra ve ark., "DEAP," *IEEE T-AFFC*, 2012
-3. Chen ve ark., "SimCLR / InfoNCE," *ICML*, 2020
-4. Masuda & Yairi, *Front. Psychol.*, 2023
-5. Pillalamarri ve ark., "Çok Modlu Derleme," *AI Rev.*, 2025
-6. CoSuBio Konsorsiyumu, *Data Brief*, 2026
-7. Rosenberg, *Ergenin Öz-İmgesi ve Toplum*, 1965
-
