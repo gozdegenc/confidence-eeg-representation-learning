@@ -1,0 +1,63 @@
+# ── Veri dosyaları (büyük boyut / lisans kısıtı) ──────────────
+data/raw/
+data/processed_cosubio/
+*.npy
+*.pkl
+*.csv
+*.dat
+*.mat
+
+# Demo npy dosyaları (opsiyonel — bunları eklemek istersen sil)
+demo_*.npy
+
+# ── Model ağırlıkları ──────────────────────────────────────────
+experiments/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# ── Weights & Biases ──────────────────────────────────────────
+wandb/
+
+# ── Python ortam ──────────────────────────────────────────────
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Jupyter ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── VS Code ──────────────────────────────────────────────────
+.vscode/
+
+# ── Conda ────────────────────────────────────────────────────
+*.conda
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Streamlit cache ──────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Hassas / kişisel ─────────────────────────────────────────
+.env
+secrets.py
+config_local.py

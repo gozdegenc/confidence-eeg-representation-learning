@@ -1,0 +1,35 @@
+{
+  "test_accuracy": 0.41487068965517243,
+  "test_macro_f1": 0.3245691493288489,
+  "n_epochs": 37120,
+  "class_dist_true": [
+    9222,
+    4843,
+    23055
+  ],
+  "class_dist_pred": [
+    14605,
+    4468,
+    18047
+  ],
+  "confusion_matrix": [
+    [
+      3595,
+      1112,
+      4515
+    ],
+    [
+      1942,
+      587,
+      2314
+    ],
+    [
+      9068,
+      2769,
+      11218
+    ]
+  ],
+  "source_dataset": "CoSuBio",
+  "target_dataset": "DEAP",
+  "protocol": "zero-shot cross-dataset transfer"
+}
